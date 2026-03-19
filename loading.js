@@ -9,14 +9,14 @@ setTimeout(() => {
         finger_print.play();
 
         const el = document.getElementById("lolhaha");
-        if (!el || el.textContent.trim() !== "tiktok: @sungsamtech - @._naq.") {
+        if (!el || el.textContent.trim() !== "tiktok: @poco.note.13") {
             localStorage.clear();
             sessionStorage.clear();
             location.reload();
         }
     }, 300);
     const el = document.getElementById("lolhaha");
-    if (!el || el.textContent.trim() !== "tiktok: @sungsamtech - @._naq.") {
+    if (!el || el.textContent.trim() !== "tiktok: @poco.note.13") {
         localStorage.clear();
         sessionStorage.clear();
         location.reload();
@@ -64,18 +64,7 @@ function removeEventListener_setup() {
     clicke_setup.removeEventListener("click", startAnimation_setup);
     disagreeBtn_setup.removeEventListener("click", resetAnimation_setup);
 
-    setTimeout(() => {
-        showPopup2_alert(
-            `Version 2.0.00 has been released, would you like to open it?`,
-            `Open`,
-            `No`,
-            () => {
-                window.location.href = "https://quandz24-ui.github.io/OriginWEB";
-            },
-            () => {}
-        );
-    }, 1500);
-}
+    
 
 restoreSettings_finger_pass();
 
